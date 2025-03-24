@@ -14,6 +14,7 @@ const Buttons = ({count, handleClick}) => {
         }
     }else{
         next = "bg-gray-400 text-white h-10 w-25 rounded-2xl font-bold "
+        button = "Finish";
     }
   return (
     <div className="flex justify-center gap-30 m-10">
