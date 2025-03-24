@@ -9,7 +9,7 @@ const Buttons = ({count, handleClick}) => {
     }
     if(count < 5){
         next = "bg-gray-400 text-white border-2 border-black h-10 w-25 rounded-2xl font-bold";
-        if(count==4){
+        if(count>=4){
             button = "Finish";
         }
     }else{
